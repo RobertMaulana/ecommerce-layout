@@ -1,0 +1,122 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.container-fluid {
+  margin: 0 15px !important;
+}
+.logo {
+  margin-left: 40%;
+  margin-top: 0.5%;
+  float: left;
+}
+.login-chart {
+  float: right;
+  margin-top: 0.5%;
+}
+.login-chart img {
+  width: auto;
+  max-height: 40px;
+}
+.login-chart .shop-chart {
+  margin-right: 20px;
+}
+.slick-next .slick-prev {
+  background: #000 !important;
+}
+
+.multiple-items img {
+  margin: 10px;
+  max-height: 180px;
+  margin-left: 7%;
+}
+.multiple-items{
+  border: 1px solid rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.new-items{
+  margin-top: 8%;
+}
+.logo-hacktivpedia{
+  font-size: 24px;
+}
+
+.footer1 {
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+.compliance {
+  max-height: 100px;
+  width: auto;
+}
+.img-items {
+  max-width: 210px;
+  height: auto;
+  margin: 5px;
+  text-align: center;
+}
+.text-items {
+  display: block;
+  width: 100%;
+}
+.thumbnail{
+  border-radius: 0px;
+  text-align: center;
+}
+.space{
+  margin-top: 3%;
+}
+.btn-rate {
+  border-radius: 2px;
+  position: absolute;
+  width: 50px;
+  left: 20%;
+  top: 80px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  border-color: #6FB3F7;
+}
+.btn-rate:hover{
+  border-color: #6FB3F7;
+}
+.btn-hover {
+  border-radius: 2px;
+  position: absolute;
+  width: 50px;
+  left: 55%;
+  top: 80px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+a:hover{
+  text-decoration: none;
+  color: #6FB3F7;
+}
+.btn-hover a {
+  text-align: center;
+}
+.btn-rate a {
+  text-align: center;
+  color: #FFF;
+
+}
+.thumbnail:hover .item-images{
+  opacity: 0.7;
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.9s;
+}
+.thumbnail:hover .btn-hover{
+  opacity: 2;
+  transition: 0.9s;
+}
+.thumbnail:hover .btn-rate{
+  opacity: 2;
+  transition: 0.9s;
+}
+.thumbnail .caption{
+  padding: 0 !important;
+}
+a .fa{
+  color: #777 !important;
+}
